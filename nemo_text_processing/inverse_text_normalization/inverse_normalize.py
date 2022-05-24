@@ -105,7 +105,7 @@ def parse_args():
     input.add_argument("--input_file", dest="input_file", help="input file path", type=str)
     parser.add_argument('--output_file', dest="output_file", help="output file path", type=str)
     parser.add_argument(
-        "--language", help="language", choices=['en', 'de', 'es', 'ru', 'fr', 'vi'], default="en", type=str
+        "--language", help="language", choices=['en', 'en_in', 'de', 'es', 'ru', 'fr', 'vi'], default="en", type=str
     )
     parser.add_argument("--verbose", help="print info for debugging", action='store_true')
     parser.add_argument("--overwrite_cache", help="set to True to re-create .far grammar files", action="store_true")
